@@ -6,5 +6,6 @@ materia-kde (20190319-0utopia1) UNRELEASED; urgency=low
   * Refit short description and runtime dependencies:
     - Move konsole, plasma-workspace, yakuake to Enhances.
     - Add Provides: qt5-style-kvantum-theme
+  * Add debian/watch pointing to upstream GitHub repo.
 
  -- James Lu <james@overdrivenetworks.com>  Tue, 02 Apr 2019 23:08:46 -0700
