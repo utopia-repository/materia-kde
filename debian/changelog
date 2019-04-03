@@ -3,5 +3,8 @@ materia-kde (20190319-0utopia1) UNRELEASED; urgency=low
   * Utopia Repository import, based off PPA packaging @
     https://code.launchpad.net/~papirus/materia-kde/+git/materia-kde/+ref/packaging
   * Update package section: universe/kde => kde
+  * Refit short description and runtime dependencies:
+    - Move konsole, plasma-workspace, yakuake to Enhances.
+    - Add Provides: qt5-style-kvantum-theme
 
  -- James Lu <james@overdrivenetworks.com>  Tue, 02 Apr 2019 23:08:46 -0700
