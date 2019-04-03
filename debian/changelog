@@ -1,5 +1,6 @@
-materia-kde (1.0.0-1) UNRELEASED; urgency=low
+materia-kde (20190319-0utopia1) UNRELEASED; urgency=low
 
-  * Initial release.
+  * Utopia Repository import, based off PPA packaging @
+    https://code.launchpad.net/~papirus/materia-kde/+git/materia-kde/+ref/packaging
 
- -- Sergei Eremenko <finalitik@gmail.com>  Tue, 17 Apr 2018 20:38:44 +0300
+ -- James Lu <james@overdrivenetworks.com>  Tue, 02 Apr 2019 23:08:46 -0700
