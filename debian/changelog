@@ -1,4 +1,4 @@
-materia-kde (20190319-0utopia1) UNRELEASED; urgency=low
+materia-kde (20190319-0utopia1) unstable; urgency=low
 
   * Utopia Repository import, based off PPA packaging @
     https://code.launchpad.net/~papirus/materia-kde/+git/materia-kde/+ref/packaging
@@ -8,4 +8,4 @@ materia-kde (20190319-0utopia1) UNRELEASED; urgency=low
     - Add Provides: qt5-style-kvantum-theme
   * Add debian/watch pointing to upstream GitHub repo.
 
- -- James Lu <james@overdrivenetworks.com>  Tue, 02 Apr 2019 23:08:46 -0700
+ -- James Lu <james@overdrivenetworks.com>  Mon, 22 Apr 2019 21:45:00 -0700
