@@ -1,3 +1,9 @@
+materia-kde (20190506-0utopia1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- James Lu <james@overdrivenetworks.com>  Sun, 12 May 2019 20:41:29 +0800
+
 materia-kde (20190319-0utopia1) unstable; urgency=low
 
   * Utopia Repository import, based off PPA packaging @
