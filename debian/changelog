@@ -1,3 +1,11 @@
+materia-kde (20190707-0utopia1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.4.0, no changes needed.
+  * Revise long description, fix extended-description-line-too-long warning
+
+ -- James Lu <james@overdrivenetworks.com>  Sat, 31 Aug 2019 22:14:19 -0700
+
 materia-kde (20190506-0utopia1) unstable; urgency=medium
 
   * New upstream release.

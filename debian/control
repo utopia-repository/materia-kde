@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: James Lu <james@overdrivenetworks.com>
 XSBC-Original-Maintainer: Sergei Eremenko <finalitik@gmail.com>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 4.1.4
+Standards-Version: 4.4.0
 Homepage: https://github.com/PapirusDevelopmentTeam/materia-kde
 
 Package: materia-kde
@@ -15,7 +15,7 @@ Recommends: qt5-style-kvantum, papirus-icon-theme
 Enhances: konsole, plasma-workspace (>= 4:5.5.0), yakuake (>= 3.0)
 Provides: qt5-style-kvantum-theme
 Description: Port of the Materia GTK theme to Plasma 5
- This is a Materia KDE port of the popular GTK theme Materia for Plasma 5 desktop.
+ This is a port of the popular GTK theme Materia for the Plasma 5 desktop.
  .
  This package contains:
   - Aurorae Theme
