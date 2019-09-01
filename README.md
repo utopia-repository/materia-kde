@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/materia-kde/master/preview.png" alt="Preview Materia KDE"/>
-</p>
+<img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/materia-kde/master/logo.png" alt="materia-kde-logo" align="right" />
 
 Materia KDE - This is a port of the popular [GTK theme Materia](https://github.com/nana-4/materia-theme) for Plasma 5 desktop with a few additions and extras.
 
@@ -53,6 +51,7 @@ Packages in this section are not part of the official repositories. If you have 
 | Arch Linux | Bruno Pagani | `sudo pacman -S materia-kde kvantum-theme-materia` <sup>[[link](https://www.archlinux.org/packages/community/any/materia-kde/)]</sup> |
 | Arch Linux | Josip Ponjavic | [materia-kde-git](https://aur.archlinux.org/packages/materia-kde-git) <sup>AUR</sup> |
 | openSUSE   | Konstantin Voinov | [materia-kde](https://software.opensuse.org/download.html?project=home:kill_it&package=materia-kde) <sup>OBS [[link](https://build.opensuse.org/package/show/home:kill_it/materia-kde)]</sub> |
+| Fedora     | Laurent Trequier | [materia-kde](https://copr.fedorainfracloud.org/coprs/tcg/themes/) <sup>copr</sup> |
 
 **NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
 
@@ -64,11 +63,9 @@ Packages in this section are not part of the official repositories. If you have 
 
 - Install [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) for a more consistent and beautiful experience.
 
+- Install widgets [Minimal Menu](https://www.opendesktop.org/p/1275285/) and [Digital Clock WL](https://www.opendesktop.org/p/1311422/)
+
 - Set tree menu view for systemsettings
-
-- On systemsettings set **Noto Sans** font for title, menu and toolbar
-
-- For better looking use toolbar icons without text with 16px size (for Papirus themes)
 
 - For Materia Blur enable translucency and blur effects on KDE sytemsettings. Set value 5 for noise and blur strengths on blur effect settings.
 
@@ -78,7 +75,7 @@ Packages in this section are not part of the official repositories. If you have 
 
 ## Hacks for small screen resolution
 
-- Install widgets [Active Window Control](https://github.com/kotelnik/plasma-applet-active-window-control) & [Application Menu](https://cgit.kde.org/plasma-workspace.git/tree/applets/appmenu) and move to panel
+- Install widgets [Active Window Control](https://www.opendesktop.org/p/998910/) & [Application Menu](https://cgit.kde.org/plasma-workspace.git/tree/applets/appmenu) and move to panel
 - Disable window buttons & titlebar on decoration:
 
 open rc-file on aurorae theme and set:
@@ -92,9 +89,7 @@ TitleEdgeTop=0
 
 ## Known issues
 
-- Old version qBittorrent (~3.3.1) not used 22px icon size on toolbar (icons will be blurred, update to fresh version for solve this)
-
-- On some propietary video drivers Aurorae have wrong rendering by default with Materia theme. For fix that use this config on ~/.Xresources:
+- On NVIDIA propietary video driver Aurorae have wrong rendering by default with Materia theme. For fix that use this config on **~/.Xresources**:
 
 ```
 Xft.dpi:       96
@@ -106,16 +101,7 @@ Xft.lcdfilter: lcddefault
 Xft.rgba:      rgb 
 ```
 
-- On Materia Blur with enabled blur effect possible some bugs with decoration shadows on aurorae and yakuake skin. [KDE bug](https://bugs.kde.org/show_bug.cgi?id=395725)
-
-
-## Fixes for Materia & Materia Light GTK3 Themes
-
-For better compatibility with Qt-apps we recommend change symbolic icons colors for GTK3-apps on Materia GTK and Materia Light GTK themes:
-```
-sudo sh -c "sed -i.orig s/0\,\ 0\,\ 0\,\ 0\.54/0\,\ 0\,\ 0\,\ 0\.73/g /usr/share/themes/Materia/gtk-3.22/gtk.css"
-sudo sh -c "sed -i.orig s/0\,\ 0\,\ 0\,\ 0\.54/0\,\ 0\,\ 0\,\ 0\.73/g /usr/share/themes/Materia-light/gtk-3.22/gtk.css"
-```
+- Enabled blur effect have some bugs with decoration shadows on aurorae. [KDE bug](https://bugs.kde.org/show_bug.cgi?id=395725)
 
 ## Donate
 
