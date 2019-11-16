@@ -6,6 +6,7 @@ XSBC-Original-Maintainer: Sergei Eremenko <finalitik@gmail.com>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.4.0
 Homepage: https://github.com/PapirusDevelopmentTeam/materia-kde
+Rules-Requires-Root: no
 
 Package: materia-kde
 Architecture: all
