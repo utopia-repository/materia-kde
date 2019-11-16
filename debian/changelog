@@ -1,3 +1,10 @@
+materia-kde (20191111-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Fixup debian/copyright
+
+ -- James Lu <james@overdrivenetworks.com>  Fri, 15 Nov 2019 17:35:51 -0800
+
 materia-kde (20190707-0utopia1) unstable; urgency=medium
 
   * New upstream release.
