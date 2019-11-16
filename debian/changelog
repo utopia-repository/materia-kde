@@ -2,6 +2,7 @@ materia-kde (20191111-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Fixup debian/copyright
+  * Update to dh compat 12.
 
  -- James Lu <james@overdrivenetworks.com>  Fri, 15 Nov 2019 17:35:51 -0800
 

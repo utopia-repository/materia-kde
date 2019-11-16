@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: James Lu <james@overdrivenetworks.com>
 XSBC-Original-Maintainer: Sergei Eremenko <finalitik@gmail.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.4.0
 Homepage: https://github.com/PapirusDevelopmentTeam/materia-kde
 
