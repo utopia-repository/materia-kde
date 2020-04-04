@@ -1,10 +1,10 @@
-materia-kde (20191111-1) UNRELEASED; urgency=medium
+materia-kde (20200312-0utopia1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Fixup debian/copyright
   * Update to dh compat 12.
 
- -- James Lu <james@overdrivenetworks.com>  Fri, 15 Nov 2019 17:35:51 -0800
+ -- James Lu <james@overdrivenetworks.com>  Fri, 03 Apr 2020 22:20:32 -0700
 
 materia-kde (20190707-0utopia1) unstable; urgency=medium
 
